@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Evaluation of 25-dices Game Computer Simulation</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Information of the Simulation</h1>
+
+    <h2>Original Board:</h2>
+    <p>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+    <h2>Dices Usage:</h2>
+    <p>['1', '1', '5', '3', '3', '6', '4', '3', '4', '5', '4', '1', '3', '6', '6', '2', '3', '2', '1', '1', '3', '4', '3', '1', '5']</p>
+
+    <h1>Part1:</h1>
+
+    <img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/evaluation.jpg' alt = ' ' width='750' height='750'>
+    <p>Mean: 286.725</p>
+    <p>Standar Diveation: 37.89326292363848</p>
+
+
+    <h1>Part2:</h1>
+<h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>1</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place1.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>1</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place2.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>5</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place3.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>3</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place4.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>3</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place5.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>6</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place6.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>4</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place7.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>3</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place8.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>4</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place9.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>5</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place10.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>4</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place11.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>1</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place12.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>3</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place13.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>6</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place14.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>6</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place15.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>2</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place16.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>3</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place17.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;2&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>2</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place18.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;2&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>1</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place19.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;2&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>1</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place20.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;3&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;2&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>3</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place21.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;3&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;2&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>4</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place22.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;3&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;1&nbsp;|&nbsp;3&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;2&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>3</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place23.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;3&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;1&nbsp;|&nbsp;1&nbsp;|&nbsp;3&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;2&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>1</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place24.jpg' alt = '' width='1000' height='250'><h2>Board:</h2>
+<p>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;3&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;1&nbsp;|&nbsp;1&nbsp;|&nbsp;3&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;6&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;5&nbsp;|&nbsp;2&nbsp;|&nbsp;</br>，---，---，---，---，---，</br>|&nbsp;3&nbsp;|&nbsp;4&nbsp;|&nbsp;1&nbsp;|&nbsp;2&nbsp;|&nbsp;5&nbsp;|&nbsp;</br>，---，---，---，---，---，
+</p>
+<h2>Next Dice:</h2>
+<p>5</p>
+<h2>Estimation Bar Chart</h2>
+<img src = 'E:/a_study/DP/Computer_Science/Python_files/simulation/board_game/graph/est_place25.jpg' alt = '' width='1000' height='250'></body>
+
+</html>
